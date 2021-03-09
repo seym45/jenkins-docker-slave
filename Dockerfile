@@ -1,6 +1,6 @@
-FROM ubuntu:18.04
+FROM ubuntu:20.04
 
-LABEL maintainer="Bibin Wilson <bibinwilsonn@gmail.com>"
+LABEL maintainer="seym45 <seym45@gmail.com>"
 
 # Make sure the package repository is up to date.
 RUN apt-get update && \
